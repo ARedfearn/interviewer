@@ -29,7 +29,7 @@ There is a *Postman* collection at [Interviewer.postman_collection.json](https:/
 
 ### Technology stack
 
-- use an netty based async java framework for the server (preferably [ratpack](https://ratpack.io)) and in-memory datastore for the backend (preferably [aerospike](http://www.aerospike.com/))
+- use an netty based async java framework for the server (preferably [Ratpack](https://ratpack.io)) and in-memory datastore for the backend (preferably [Redis](https://redis.io/))
 - the backend will run as a standalone java process + the in-memory datastore process
 
 ### Requirements
