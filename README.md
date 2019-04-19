@@ -29,7 +29,7 @@ There is a *Postman* collection at [Interviewer.postman_collection.json](https:/
 
 ### Technology stack
 
-- use an netty based async java framework for the server (preferably [Ratpack](https://ratpack.io)) and in-memory datastore for the backend (preferably [Redis](https://redis.io/))
+- use [Ratpack](https://ratpack.io)) as Java server side framework and redis for the backend
 - the backend will run as a standalone java process + the in-memory datastore process
 
 ### Requirements
@@ -40,6 +40,7 @@ There is a *Postman* collection at [Interviewer.postman_collection.json](https:/
 - Your code should be in a state that you would feel comfortable releasing to production
 - The endpoints for the same token might be called from multiple clients concurrently.
 - Writing unit/integration tests are optional but highly encouraged
+- Dockerising the two components is optional and encouraged
 
 # Questions
 
