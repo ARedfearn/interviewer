@@ -29,7 +29,7 @@ There is a *Postman* collection at [Interviewer.postman_collection.json](https:/
 
 ### Technology stack
 
-- use [Ratpack](https://ratpack.io)) as Java server side framework and redis for the backend
+- use [Ratpack](https://ratpack.io) as Java server side framework and [Redis](https://redis.io/) for the backend
 - the backend will run as a standalone java process + the in-memory datastore process
 
 ### Requirements
