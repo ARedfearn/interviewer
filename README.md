@@ -30,7 +30,7 @@ There is a *Postman* collection at [Interviewer.postman_collection.json](https:/
 ### Technology stack
 
 - use [Ratpack](https://ratpack.io) as Java server side framework and [Redis](https://redis.io/) as the datastore.
-- donot use spring components, use [Guice](https://ratpack.io/manual/current/guice.html) if DI is needed.
+- donot use spring DI or spring components, use [Guice](https://ratpack.io/manual/current/guice.html) if DI is needed.
 - the backend will run as a standalone java process + the in-memory datastore process
 
 ### Requirements
